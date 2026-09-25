@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dulce Tentación | Repostería artesanal en Bogotá</title>
+  <meta name="description"
+    content="Dulce Tentación: repostería artesanal en Bogotá desde 2015. Tortas, cupcakes, brownies, galletas y postres, con línea sin azúcar añadida para todos." />
+
+  <link rel="icon" type="image/svg+xml" href="img/logo_dulce.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="img/logo_dulce.svg" />
+  <meta name="theme-color" content="#c96a85" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://JEcheverry10.github.io/-dulce-tentacion/" />
+  <meta property="og:title" content="Dulce Tentación | Repostería artesanal en Bogotá" />
+  <meta property="og:description"
+    content="Tortas, cupcakes, brownies, galletas y postres con ingredientes de calidad, más una línea sin azúcar añadida: Dulce para Todos. ¡Desde 2015!" />
+  <meta property="og:image" content="https://JEcheverry10.github.io/-dulce-tentacion/img/image1.jpg" />
+  <meta property="og:site_name" content="Dulce Tentación" />
+  <meta property="og:locale" content="es_CO" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://JEcheverry10.github.io/-dulce-tentacion/" />
+  <meta name="twitter:title" content="Dulce Tentación | Repostería artesanal en Bogotá" />
+  <meta name="twitter:description"
+    content="Tortas, cupcakes, brownies, galletas y postres con ingredientes de calidad, más una línea sin azúcar añadida: Dulce para Todos." />
+  <meta name="twitter:image" content="https://JEcheverry10.github.io/-dulce-tentacion/img/image1.jpg" />
+
+  <!-- Preload LCP images (hero superior y logo) -->
+  <link rel="preload" as="image" href="img/image1.jpg" />
+  <link rel="preload" as="image" href="img/logo_dulce.svg" type="image/svg+xml" />
+
+  <!-- Fuentes: preconnect + carga no-bloqueante + display=swap -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+    media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" />
+  </noscript>
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Dulce Tentación - Inicio">
+        <img class="brand-logo" src="img/logo_dulce.svg" alt="Logo Dulce Tentación" width="44" height="44" />
+        <span class="brand-name">Dulce Tentación</span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Navegación principal">
+        <a class="nav-link" href="#inicio">Inicio</a>
+        <a class="nav-link" href="#nosotros">Nosotros</a>
+        <a class="nav-link" href="#portafolio">Portafolio</a>
+        <a class="nav-link" href="#sin-azucar">Sin azúcar</a>
+        <a class="nav-link" href="#personaliza">Personaliza</a>
+        <a class="nav-link" href="#filosofia">Filosofía</a>
+        <a class="nav-link" href="#politicas">Políticas</a>
+        <a class="nav-link" href="#contacto">Contacto</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-eyebrow">Repostería artesanal en Bogotá &middot; Desde 2015</p>
+          <h1 class="hero-title">Dulce <span>Tentación</span></h1>
+          <p class="hero-slogan">Sabor + Calidad + Creatividad + Variedad</p>
+          <p class="hero-desc">
+            Ofrecemos productos de repostería elaborados con ingredientes de calidad, diferentes sabores y
+            presentaciones para consumo individual, familiar y ocasiones especiales, acompañado de una experiencia
+            agradable.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#portafolio">Ver portafolio</a>
+            <a class="btn btn-outline" href="#contacto">Pide tu postre</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img class="hero-img" src="img/image1.jpg" alt="Torta artesanal Dulce Tentación" />
+          <span class="hero-badge">Desde 2015 &middot; Hecho con pasión</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="section" id="nosotros">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">Nosotros</p>
+          <h2 class="section-title">Nuestra historia</h2>
+        </div>
+        <div class="text-columns reveal">
+          <p>
+            En el año 2015, en el corazón de Bogotá, lo que comenzó como charlas apasionadas entre cinco amigos
+            amantes de la gastronomía y el detalle —Yeimi, Stefany, Carolain, Viviana y Juan David— se convirtió en la
+            semilla de un proyecto lleno de sabor, dedicación y creatividad: Dulce Tentación.
+          </p>
+          <p>
+            Lo que inició en una cocina acogedora de la capital, experimentando con recetas familiares, frutas locales
+            y técnicas artesanales, pronto cautivó a vecinos y conocidos, convirtiendo cada celebración en un pretexto
+            para compartir un postre inolvidable. Hoy somos una marca consolidada en la producción y comercialización
+            de todo tipo de postres, sin perder nuestra esencia original.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card reveal">
+            <h3 class="card-title">Idea de negocio</h3>
+            <p>
+              Producir y comercializar productos de repostería con ingredientes de calidad, varias opciones de sabores
+              y presentaciones para consumo individual, familiar y ocasiones especiales, acompañado de una experiencia
+              agradable.
+            </p>
+          </article>
+          <article class="card reveal">
+            <h3 class="card-title">Objeto social</h3>
+            <p>
+              Elaboración, comercialización y entrega de productos de repostería como tortas, cupcakes, brownies,
+              galletas y postres. Nuestra propuesta combina: <strong>Sabor + Calidad + Creatividad + Variedad</strong>.
+            </p>
+          </article>
+          <article class="card reveal">
+            <h3 class="card-title">Propuesta de valor</h3>
+            <p>
+              Creemos que todos deberían poder disfrutar de un momento dulce. Por eso ofrecemos productos frescos,
+              deliciosos y atractivos, e incluimos alternativas <strong>sin azúcar añadida</strong> con alulosa,
+              stevia, eritritol y fruta del monje.
+            </p>
+          </article>
+        </div>
+
+        <article class="panel reveal">
+          <h3 class="panel-title">¿A quién va dirigida?</h3>
+          <ul class="chip-list">
+            <li>Jóvenes y adultos</li>
+            <li>Familias</li>
+            <li>Amantes de la repostería</li>
+            <li>Detalles para regalar</li>
+            <li>Cumpleaños y celebraciones</li>
+            <li>Reuniones y eventos de empresas</li>
+            <li>Productos sin azúcar añadida</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- PORTAFOLIO -->
+    <section class="section section-alt" id="portafolio">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">Portafolio</p>
+          <h2 class="section-title">Nuestros productos</h2>
+          <p>Amplia variedad elaborada con ingredientes de calidad, cuidando el sabor, la presentación y la frescura.</p>
+        </div>
+        <div class="cards-grid">
+          <article class="card card-media reveal">
+            <img src="img/image7.jpeg" alt="Tortas artesanales" loading="lazy" />
+            <h3 class="card-title">Tortas</h3>
+            <p>Todo tipo de tortas para ocasiones especiales; personalizables según tamaño, sabor y decoración.</p>
+          </article>
+          <article class="card card-media reveal">
+            <img src="img/image8.jpeg" alt="Cupcakes" loading="lazy" />
+            <h3 class="card-title">Cupcakes</h3>
+            <p>Perfectos para regalar y para celebraciones, con varias opciones de sabor y decoración.</p>
+          </article>
+          <article class="card card-media reveal">
+            <img src="img/image10.jpeg" alt="Brownies" loading="lazy" />
+            <h3 class="card-title">Brownies</h3>
+            <p>Húmedos y chocolatosos, ideales para un antojo individual o para compartir.</p>
+          </article>
+          <article class="card card-media reveal">
+            <img src="img/image9.jpeg" alt="Galletas" loading="lazy" />
+            <h3 class="card-title">Galletas</h3>
+            <p>Clásicas y creativas, perfectas para acompañar un café o sorprender a alguien.</p>
+          </article>
+          <article class="card card-media reveal">
+            <img src="img/image13.jpeg" alt="Cheesecakes" loading="lazy" />
+            <h3 class="card-title">Cheesecakes</h3>
+            <p>Suaves y cremosos, con combinaciones de frutas locales y terminados artesanales.</p>
+          </article>
+          <article class="card card-media reveal">
+            <img src="img/image14.jpeg" alt="Postres variados" loading="lazy" />
+            <h3 class="card-title">Postres</h3>
+            <p>Opciones variadas para consumo individual, familiar y eventos. ¡Pregunta por lo que soñemos juntos!</p>
+          </article>
+        </div>
+
+        <div class="gallery reveal">
+          <h3 class="gallery-title">Galería</h3>
+          <div class="gallery-grid">
+            <img src="img/image2.jpeg" alt="Producto Dulce Tentación" loading="lazy" />
+            <img src="img/image3.jpeg" alt="Producto Dulce Tentación" loading="lazy" />
+            <img src="img/image4.jpeg" alt="Producto Dulce Tentación" loading="lazy" />
+            <img src="img/image6.jpeg" alt="Producto Dulce Tentación" loading="lazy" />
+            <img src="img/image7.jpeg" alt="Producto Dulce Tentación" loading="lazy" />
+            <img src="img/image8.jpeg" alt="Producto sin azúcar añadida" loading="lazy" />
+            <img src="img/image9.jpeg" alt="Producto Dulce Tentación" loading="lazy" />
+            <img src="img/image11.jpeg" alt="Producto Dulce Tentación" loading="lazy" />
+            <img src="img/image12.jpeg" alt="Producto Dulce Tentación" loading="lazy" />
+            <img src="img/image13.jpeg" alt="Producto Dulce Tentación" loading="lazy" />
+            <img src="img/image14.jpeg" alt="Producto Dulce Tentación" loading="lazy" />
+            <img src="img/image15.jpeg" alt="Producto Dulce Tentación" loading="lazy" />
+            <img src="img/image16.jpeg" alt="Producto Dulce Tentación" loading="lazy" />
+            <img src="img/image17.jpeg" alt="Producto Dulce Tentación" loading="lazy" />
+            <img src="img/image19.jpeg" alt="Producto Dulce Tentación" loading="lazy" />
+            <img src="img/image20.jpeg" alt="Producto Dulce Tentación" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DULCE PARA TODOS -->
+    <section class="section" id="sin-azucar">
+      <div class="container two-cols">
+        <div class="reveal">
+          <img class="rounded-img" src="img/image8.jpeg" alt="Línea Dulce para Todos sin azúcar añadida" loading="lazy" />
+        </div>
+        <div class="reveal">
+          <p class="section-eyebrow">Dulce para Todos</p>
+          <h2 class="section-title">Línea sin azúcar añadida</h2>
+          <p>
+            En Dulce Tentación creemos que disfrutar algo dulce también puede ser para todos. Por eso desarrollamos una
+            línea especial de productos sin azúcar añadida, utilizando diferentes alternativas de endulzamiento según
+            las características de cada preparación.
+          </p>
+          <ul class="chip-list">
+            <li>Alulosa</li>
+            <li>Stevia</li>
+            <li>Eritritol</li>
+            <li>Fruta del monje</li>
+          </ul>
+          <p class="note">
+            <strong>Importante:</strong> estos productos se elaboran sin azúcar añadida, lo que no significa
+            necesariamente que sean libres de carbohidratos ni aptos para todas las personas. Se recomienda revisar los
+            ingredientes antes del consumo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PERSONALIZA -->
+    <section class="section section-alt" id="personaliza">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">Personaliza tu pedido</p>
+          <h2 class="section-title">Hazlo a tu medida</h2>
+          <p>Elige las características de tu postre y nosotros nos encargamos del resto.</p>
+        </div>
+        <ul class="chip-list big reveal">
+          <li>Sabor</li>
+          <li>Tamaño</li>
+          <li>Diseño</li>
+          <li>Decoración</li>
+          <li>Color</li>
+          <li>Mensaje</li>
+          <li>Cantidad</li>
+          <li>Tipo de presentación</li>
+          <li>Alternativa de endulzamiento</li>
+        </ul>
+        <p class="note reveal">
+          Los precios pueden variar según el tamaño, la decoración, el nivel de personalización y la cantidad solicitada.
+        </p>
+        <div class="center reveal">
+          <a class="btn btn-primary" href="#contacto">Cuéntanos tu idea</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FILOSOFÍA -->
+    <section class="section" id="filosofia">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">Filosofía</p>
+          <h2 class="section-title">Misión, visión y valores</h2>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card card-dark reveal">
+            <h3 class="card-title">Misión</h3>
+            <p>
+              Producir y comercializar postres artesanales de la más alta calidad, brindando momentos de felicidad y
+              deleite a nuestros clientes a través de sabores auténticos, presentaciones excepcionales y un servicio
+              cercano.
+            </p>
+          </article>
+          <article class="card card-dark reveal">
+            <h3 class="card-title">Visión 2030</h3>
+            <p>
+              Para el año 2030, ser reconocidos como la empresa líder en el sector de la repostería y pastelería,
+              destacándonos por la innovación de nuestras recetas, la excelencia de nuestros productos y nuestra
+              presencia en el corazón y las celebraciones de cada hogar.
+            </p>
+          </article>
+          <article class="card card-dark reveal">
+            <h3 class="card-title">Nuestra esencia</h3>
+            <p>
+              Calidad y pasión elaborando cada receta desde cero; compromiso y cuidado con cada cliente como parte de
+              la familia; e innovación dulce que respeta la tradición mientras experimenta con nuevas tendencias.
+            </p>
+          </article>
+        </div>
+
+        <div class="cards-grid values">
+          <article class="value reveal">
+            <h4>Pasión y dedicación</h4>
+            <p>Amamos lo que hacemos y cuidamos cada detalle desde 2015.</p>
+          </article>
+          <article class="value reveal">
+            <h4>Trabajo en equipo</h4>
+            <p>La unión de talentos e ideas es el motor de nuestro grupo fundador.</p>
+          </article>
+          <article class="value reveal">
+            <h4>Calidad impecable</h4>
+            <p>Sin concesiones en ingredientes ni procesos: productos frescos y seguros.</p>
+          </article>
+          <article class="value reveal">
+            <h4>Cercanía y empatía</h4>
+            <p>Tratamos a cada cliente, proveedor y colaborador como parte de nuestro hogar.</p>
+          </article>
+          <article class="value reveal">
+            <h4>Innovación dulce</h4>
+            <p>Respetamos las recetas artesanales y exploramos nuevas tendencias y sabores.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- POLÍTICAS -->
+    <section class="section section-alt" id="politicas">
+      <div class="container container-narrow">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">Transparencia</p>
+          <h2 class="section-title">Nuestras políticas</h2>
+          <p>Reglas claras para un servicio cercano y confiable.</p>
+        </div>
+        <div class="accordion reveal">
+          <div class="acc-item">
+            <button class="acc-head" aria-expanded="false">Política de calidad e inocuidad
+              <span class="acc-icon"></span></button>
+            <div class="acc-body"><p>Todos los productos se elaboran bajo condiciones adecuadas de higiene,
+              manipulación, almacenamiento y conservación, con materias primas en buen estado y verificación de calidad
+              antes de la entrega.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-head" aria-expanded="false">Política de pedidos y entregas
+              <span class="acc-icon"></span></button>
+            <div class="acc-body"><p>Los pedidos se solicitan con anticipación indicando producto, cantidad, fecha, hora
+              de entrega y características especiales. Informamos oportunamente cualquier cambio que pueda afectar la
+              entrega.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-head" aria-expanded="false">Política de personalización
+              <span class="acc-icon"></span></button>
+            <div class="acc-body"><p>Los productos personalizados están sujetos a disponibilidad de ingredientes,
+              materiales y capacidad de producción. Diseño, tamaño, sabor y decoración se acuerdan previamente con el
+              cliente.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-head" aria-expanded="false">Política de cambios y cancelaciones
+              <span class="acc-icon"></span></button>
+            <div class="acc-body"><p>Las modificaciones o cancelaciones se realizan con anticipación. En productos
+              personalizados, las condiciones se establecen al momento de confirmar el pedido.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-head" aria-expanded="false">Política de precios y pagos
+              <span class="acc-icon"></span></button>
+            <div class="acc-body"><p>Los precios se informan previamente. Los pedidos especiales o personalizados pueden
+              requerir un anticipo para iniciar su elaboración.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-head" aria-expanded="false">Política de información de productos
+              <span class="acc-icon"></span></button>
+            <div class="acc-body"><p>Informamos de manera clara los ingredientes relevantes y las características de
+              cada producto. La línea "Dulce para Todos" indica que son productos sin azúcar añadida, sin afirmar que
+              sean aptos para todas las personas con diabetes.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-head" aria-expanded="false">Política de línea "Dulce para Todos"
+              <span class="acc-icon"></span></button>
+            <div class="acc-body"><p>Los productos de esta línea se elaboran sin azúcar añadida y pueden usar alulosa,
+              stevia, eritritol o fruta del monje, según la preparación. La información de ingredientes está disponible
+              para el cliente.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-head" aria-expanded="false">Política de seguridad y salud en el trabajo
+              <span class="acc-icon"></span></button>
+            <div class="acc-body"><p>Identificamos y gestionamos los riesgos de producción, almacenamiento y limpieza,
+              promoviendo el uso adecuado de elementos de protección y el cumplimiento de las medidas de seguridad.</p>
+            </div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-head" aria-expanded="false">Política ambiental
+              <span class="acc-icon"></span></button>
+            <div class="acc-body"><p>Procuramos reducir el desperdicio de materias primas, hacer un uso responsable del
+              agua y la energía, y realizar una adecuada separación y disposición de los residuos generados.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section" id="contacto">
+      <div class="container container-narrow">
+        <div class="section-head reveal">
+          <p class="section-eyebrow">Contacto</p>
+          <h2 class="section-title">Queremos conocer tu opinión</h2>
+          <p>Tu opinión nos ayuda a mejorar cada sabor. Completa la breve encuesta.</p>
+        </div>
+
+        <form class="survey reveal" id="survey" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="nombre">Nombre <span class="req">*</span></label>
+              <input type="text" id="nombre" name="nombre" autocomplete="name" placeholder="Tu nombre" />
+              <small class="error" data-error="nombre"></small>
+            </div>
+            <div class="form-field">
+              <label for="correo">Correo electrónico <span class="req">*</span></label>
+              <input type="email" id="correo" name="correo" autocomplete="email" placeholder="tucorreo@ejemplo.com" />
+              <small class="error" data-error="correo"></small>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="edad">Edad</label>
+            <select id="edad" name="edad">
+              <option value="">Selecciona una opción</option>
+              <option>Menos de 18</option>
+              <option>18-25</option>
+              <option>26-35</option>
+              <option>36-50</option>
+              <option>Más de 50</option>
+            </select>
+          </div>
+
+          <fieldset class="form-field">
+            <legend>¿Qué productos consumes con mayor frecuencia?</legend>
+            <div class="check-group">
+              <label><input type="checkbox" name="productos" value="Tortas" /> Tortas</label>
+              <label><input type="checkbox" name="productos" value="Cupcakes" /> Cupcakes</label>
+              <label><input type="checkbox" name="productos" value="Brownies" /> Brownies</label>
+              <label><input type="checkbox" name="productos" value="Galletas" /> Galletas</label>
+              <label><input type="checkbox" name="productos" value="Cheesecakes" /> Cheesecakes</label>
+              <label><input type="checkbox" name="productos" value="Postres" /> Postres</label>
+              <label><input type="checkbox" name="productos" value="Otros" /> Otros</label>
+            </div>
+          </fieldset>
+
+          <div class="form-field">
+            <span class="label-static">¿Con qué frecuencia compras productos de repostería?</span>
+            <div class="radio-group">
+              <label><input type="radio" name="frecuencia" value="Varias veces al mes" /> Varias veces al mes</label>
+              <label><input type="radio" name="frecuencia" value="Una vez al mes" /> Una vez al mes</label>
+              <label><input type="radio" name="frecuencia" value="Ocasionalmente" /> Ocasionalmente</label>
+              <label><input type="radio" name="frecuencia" value="Solo en ocasiones especiales" /> Solo en ocasiones especiales</label>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <span class="label-static">¿Qué factor consideras más importante?</span>
+            <div class="radio-group">
+              <label><input type="radio" name="factor" value="Sabor" /> Sabor</label>
+              <label><input type="radio" name="factor" value="Precio" /> Precio</label>
+              <label><input type="radio" name="factor" value="Calidad" /> Calidad</label>
+              <label><input type="radio" name="factor" value="Presentación" /> Presentación</label>
+              <label><input type="radio" name="factor" value="Variedad" /> Variedad</label>
+              <label><input type="radio" name="factor" value="Atención" /> Atención</label>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <span class="label-static">¿Te parece interesante encontrar productos sin azúcar añadida?</span>
+            <div class="radio-group">
+              <label><input type="radio" name="sinAzucar" value="Sí" /> Sí</label>
+              <label><input type="radio" name="sinAzucar" value="No" /> No</label>
+              <label><input type="radio" name="sinAzucar" value="Tal vez" /> Tal vez</label>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="queProducto">¿Qué producto te gustaría que ofreciéramos?</label>
+            <input type="text" id="queProducto" name="queProducto" placeholder="Tu idea..." />
+          </div>
+
+          <fieldset class="form-field">
+            <legend>¿Para qué ocasión comprarías nuestros productos?</legend>
+            <div class="check-group">
+              <label><input type="checkbox" name="ocasiones" value="Consumo personal" /> Consumo personal</label>
+              <label><input type="checkbox" name="ocasiones" value="Cumpleaños" /> Cumpleaños</label>
+              <label><input type="checkbox" name="ocasiones" value="Regalo" /> Regalo</label>
+              <label><input type="checkbox" name="ocasiones" value="Reuniones" /> Reuniones</label>
+              <label><input type="checkbox" name="ocasiones" value="Eventos" /> Eventos</label>
+              <label><input type="checkbox" name="ocasiones" value="Otra" /> Otra</label>
+            </div>
+          </fieldset>
+
+          <div class="form-field">
+            <label for="comentarios">Comentarios o sugerencias</label>
+            <textarea id="comentarios" name="comentarios" rows="4" placeholder="Cuéntanos lo que piensas..."></textarea>
+          </div>
+
+          <button class="btn btn-primary btn-block" type="submit">Enviar encuesta</button>
+          <p class="form-note">Tus datos solo serán utilizados para fines de esta encuesta.</p>
+
+          <div class="form-success" id="form-success" hidden>
+            <p><strong>¡Gracias por tu opinión!</strong> Hemos recibido tu respuesta. Te contaremos muy pronto.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <img class="footer-logo" src="img/logo_dulce.svg" alt="Logo Dulce Tentación" width="40" height="40" />
+        <p class="footer-name">Dulce Tentación</p>
+        <p>Sabor + Calidad + Creatividad + Variedad.</p>
+      </div>
+      <div>
+        <h4>Equipo fundador</h4>
+        <ul>
+          <li>Stefany Vanegas</li>
+          <li>Yeimi Peña</li>
+          <li>Carolain Giraldo</li>
+          <li>Viviana García</li>
+          <li>Juan David Echeverry</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Programa</h4>
+        <ul>
+          <li>Técnico en Talento Humano</li>
+          <li>Código del programa: 134207</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Dulce Tentación &middot; Hecho con pasión en Bogotá, Colombia.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox para ver imágenes ampliadas -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Vista ampliada de la imagen">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Cerrar">&times;</button>
+    <img id="lightbox-img" src="" alt="" />
+    <p class="lightbox-caption" id="lightbox-caption"></p>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
